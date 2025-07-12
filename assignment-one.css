@@ -107,6 +107,7 @@ h1{
     display: flex;
     gap: 4px;
 }
+
 .review{
     display: flex;
     gap: 20px;
@@ -143,6 +144,8 @@ h1{
     border-radius: 14px;
     width: 366px;
 }
+
+/* Ready to focus better */
 .focus{
     background-color: white;
     margin: 137px 200px;
@@ -167,6 +170,8 @@ h1{
     margin-bottom: 20px;
 }
 
+/* Let’s Get in Touch */
+
 .touch{
     display: flex;
     align-items: center;
@@ -190,6 +195,7 @@ h1{
 label{
     margin-bottom: 10px;
     font-weight: 600;
+    display: block;
 }
 .form-group input, 
 .form-group textarea{
