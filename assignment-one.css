@@ -145,9 +145,55 @@ h1{
 }
 .focus{
     background-color: white;
-    align-items: center;
-    justify-content: space-between;
     margin: 137px 200px;
     padding: 71px 150px;
     border-radius: 14px;
+}
+
+.focus p{
+    margin: 0;
+    font-size: 16px;
+    color: #B3B3B3;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.center-img{
+    border-radius: 48px;
+    display: block;
+    margin: 0 auto;
+
+}
+.btn-center{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.touch{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+.touch-content{
+    font-size: 97px;
+    font-weight: bold;
+}
+
+.form-group{
+    margin-bottom: 20px;
+}
+.form-group input, 
+.form-group textarea{
+    padding: 20px;
+    width: 100%; 
+    background-color: white; 
+    border: 1px solid #D6DDED ;
+    border-radius: 10px;
+}
+.form-group label{
+    margin-bottom: 6px;
+}
+#submit-button{
+    width: 100%;
 }
