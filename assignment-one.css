@@ -197,3 +197,11 @@ h1{
 #submit-button{
     width: 100%;
 }
+ul{
+    display: flex;
+    align-items: center;
+    margin-right: 48px;
+}
+ul li{
+    list-style: none;
+}
